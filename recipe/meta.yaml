@@ -1,5 +1,5 @@
 {% set name = "kube-no-trouble" %}
-{% set version = "0.7.3" %}
+{% set version = "0.7.3-43-g2366d92" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/doitintl/kube-no-trouble/archive/{{ version }}.tar.gz
-  sha256: 4921ce9101f42a34280dd20eeae46d4f759700b8b4db8a32aace4468212d789d
+  sha256: ba12d1d20c239b426af238278840119d3490f8412a5726e4f470ba607bff4f13
 
 build:
   number: 0
